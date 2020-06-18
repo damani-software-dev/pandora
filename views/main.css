@@ -1,0 +1,2415 @@
+
+
+
+body{
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0,.6);
+    background-blend-mode: overlay;
+}
+
+
+img{
+    position: relative;
+    width: 150px;
+    height: 120px;
+}
+.nav-bar{
+    display: inline-block;
+    text-decoration: none;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+a:hover{
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.nav-bar ul li{
+    position: relative;
+    top: 25px;
+    left: 800px;
+    color:white;
+    float: left;
+    padding: 25px 25px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: none;
+    
+
+}
+img{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 220px;
+    height: 220px;
+}
+
+h4{
+    position: absolute;
+    color:white;
+    font-size: medium;
+    font-family: monospace;
+    top: 380px;
+    left: 495px;
+    animation: slide_up 0.2s ease;
+}
+
+h1{
+    position: relative;
+    left: 100px;
+    top: 204px;
+    font-family: fantasy;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+   
+}
+
+
+.business{
+    position: relative;
+    left: 275px;
+    top: 130px;
+    color: #FFD700;
+    font-family: fantasy;
+}
+
+.motto{
+    position: absolute;
+    left:380px ;
+    text-transform: uppercase;
+    animation: slide_up 1.4s ease;
+    
+    
+}
+
+.btn{
+    position: relative;
+    top: 5px;
+    animation: slide_up 0.5s ease;
+}
+.btn-1{
+    position:absolute;
+    top: 400px;
+    left: 450px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:black;
+    color: white;
+    width: 150px;
+    border-top-color:#FFD700 ;
+    border-bottom-color:#FFD700;
+    border-left-color:#FFD700;
+    border-right-color: #FFD700;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    cursor:pointer;
+
+    
+}
+
+.btn-1:focus{
+    outline: none;
+}
+
+
+.btn-1:hover{
+    background-color:#FFD700 ;
+}
+
+.btn-2{
+    position:absolute;
+    top: 400px;
+    left: 680px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #FFD700;
+    width: 150px;
+    border-top-color:black ;
+    border-bottom-color:black;
+    border-left-color:black;
+    border-right-color: black;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    cursor:pointer;
+}
+
+.btn-2:hover{
+    background-color:white ;
+}
+
+.btn-2:focus{
+    outline: none;
+}
+
+
+@keyframes slide_up{
+    0%{
+    transform:translatey(250px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.transition-fade{
+    transition: 4s;
+    opacity: 1;
+}
+
+html.is-animated .transition-fade{
+    opacity: 0;
+    transform: translateY(-100px);
+
+}
+.slide-show{
+    position: absolute;
+    width: 450px;
+    height: 400;
+}
+
+.intro-body{
+    position: relative;
+    background-color: white;
+    top: 550px;
+    justify-content:right;
+    left: 0px;
+    width: 1341px;
+    height: 450px;
+    box-shadow: 20px 20px 20px;
+
+}
+
+.intro-image{
+    position: absolute;
+    top:677px;
+    left:150px;
+    width: 550px;
+    height: 450px;
+    border-radius: 20px;
+
+
+}
+footer{
+    position: absolute;
+    background-color:black;
+    top: 1349px;
+    left:0;
+    width: 1349px;
+    height: 400px;
+    text-align: center;
+
+
+}
+
+.footer_serv{
+    position: absolute;
+    background-color:black;
+    top: 1400px;
+    left:0px;
+    width: 1349px;
+    height: 400px;
+    text-align: center;
+
+
+}
+
+
+
+.footer-line{
+    position: absolute;
+    top: 340px;
+    left: 20px;
+    width: 1320px;
+    justify-content: center;
+}
+.footer-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.footer-contact{
+    position: absolute;
+    top: 200px;
+    margin: 20px 20px;
+    font-family: sans-serif;
+    color: rgb(207, 184, 54);
+}
+
+#phone{
+    position: absolute;
+    top: 250px;
+    margin: 20px 20px;
+    font-size: 15px;
+    color: gold;
+
+}
+
+.phone-num{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+#email-icon{
+    position: absolute;
+    top: 298px;
+    margin: 20px 20px;
+    font-size: 15px;
+    color: gold;
+}
+.email{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.Services-header{
+    position: absolute;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 0;
+}
+
+.footer-services{
+   position:relative;
+   color:rgb(207, 184, 54);
+   left: 500px;
+}
+
+.first{
+   position: absolute;
+   left: 500px;
+}
+
+.two{
+    position: relative;
+    left: 486px;
+    top: 50px;
+}
+
+.three{
+    position: relative;
+    left: 460px;
+    top: 58px;
+}
+
+.four{
+    position: relative;
+    left: 460px;
+    top: 58px;
+}
+
+.five{
+    position: relative;
+    left: 470px;
+    top: 58px;
+}
+
+.six{
+    position: relative;
+    left: 485px;
+    top: 58px;
+}
+
+.seven{
+    position: relative;
+    left: 470px;
+    top: 58px;
+}
+
+.eight{
+    position: relative;
+    left: 458px;
+    top: 58px;
+}
+.copy{
+    position: absolute;
+    text-align: center;
+    left: 650px;
+    top: 350px;
+    color:gold;
+    
+}
+
+
+.graphic{
+    position: relative;
+    top: 150px;
+    background-color:gold;
+    color: black;
+    width: 550px;
+    height: 5px;
+    border: 3px solid black;
+    text-align: justify;
+    font-size: 20px;
+    padding: 25px 30px;
+    font-family:monospace ;
+    border-radius: 10px;
+
+}
+.graphic-header{
+}
+
+.glide-container{
+    position: absolute;
+    align-items: center;
+    top: 480px;
+    left: 680px;
+}
+
+#truck-icon{
+    position: absolute;
+    color:gold;
+    left: 200px;
+    top: 760px;
+    font-size: 50px;
+    
+}
+#mission-icon{
+    position: absolute;
+    color:gold;
+    left: 630px;
+    top: 760px;
+    font-size: 50px;
+}
+
+#Vision-icon{
+    position: absolute;
+    color:gold;
+    left: 1080px;
+    top: 760px;
+    font-size: 50px;
+}
+
+.under-line{
+    position: absolute;
+    background-color:gold;
+    left: 1060px;
+    top: 830px;
+    width: 100px;
+    height: 10px;
+    border-radius: 30px;
+}
+
+.under-line1{
+    position: absolute;
+    background-color:gold;
+    left: 610px;
+    top: 830px;
+    width: 100px;
+    height: 10px;
+    border-radius: 30px;
+}
+
+.under-line2{
+    position: absolute;
+    background-color:gold;
+    left: 183px;
+    top: 830px;
+    width: 100px;
+    height: 10px;
+    border-radius: 30px;
+}
+
+.black-line{
+    position: absolute;
+    background-color:black;
+    left: 183px;
+    top: 830px;
+    width: 50px;
+    height: 10px;
+    border-radius: 30px;
+}
+
+.black-line1{
+    position: absolute;
+    background-color:black;
+    left: 610px;
+    top: 830px;
+    width: 50px;
+    height: 10px;
+    border-radius: 30px;
+}
+
+.black-line2{
+    position: absolute;
+    background-color:black;
+    left: 1060px;
+    top: 830px;
+    width: 50px;
+    height: 10px;
+    border-radius: 30px;
+}
+
+.sub-header1{
+    position: absolute;
+    left: 168px;
+    top: 850px;
+    font-family: monospace;
+}
+
+.sub-header2{
+    position: absolute;
+    left: 625px;
+    top: 850px;
+    font-family: monospace;
+}
+
+.sub-header3{
+    position: absolute;
+    left: 1090px;
+    top: 850px;
+    font-family: monospace;
+}
+
+.button2{
+    position: absolute;
+    left: 620px;
+    top: 1050px;
+    align-items: right;
+    font-family: sans-serif;
+    border-radius:10px ;
+    padding: 10px 10px;
+    background-color: gold;
+    color: black;
+    border: 1px solid black;
+    cursor:pointer;
+}
+
+
+.para{
+    position: absolute;
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 80px 80px;
+    top: 850px;
+    left: 450px;
+    line-height: 20px;
+}
+
+.para1{
+    position: absolute;
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 80px 80px;
+    top: 850px;
+    left: 940px;
+    line-height: 20px;
+}
+
+.para2{
+    position: absolute;
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 80px 80px;
+    top: 850px;
+    left: 0px;
+    line-height: 20px;
+}
+
+.model-1{
+    position: absolute;
+    width: 98%;
+    height: 100%;
+    background-color: black;
+    border-radius: 90%;
+    border: 3px solid gold;
+    display: flex;
+    display: none;
+
+}
+
+.model-container{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    top: 100px;
+    left: 280px;
+    border-radius: 9px;
+
+}
+
+.close-model{
+    font-size: large;
+    font-weight: 900px;
+    position: absolute;
+    background-color: black;
+    border: 2px solid gold;
+    left: 1100px;
+    padding: 12px 12px;
+    border-radius: 50%;
+    color:gold;
+    
+}
+
+#design1{
+    opacity: none;
+    position: absolute;
+    left: 300px;
+}
+
+#design5{
+    opacity: none;
+    position: absolute;
+    left: 630px;
+}
+
+#design9{
+    opacity: none;
+    position: absolute;
+    left: 0px;
+    top: 300px;
+}
+
+#design15{
+    opacity: none;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+
+#design11{
+    opacity: none;
+    position: absolute;
+    left: 630px;
+    top: 300px;
+}
+
+.follow{
+    position: absolute;
+    top: 204px;
+    left: 1050px;
+    color:rgb(207, 184, 54);
+    font-family: sans-serif;
+}
+
+#Fb-icon{
+    position: absolute;
+    top: 264px;
+    left: 1050px;
+    color: gold;
+    font-size: 25px;
+}
+
+#insta-icon{
+    position: absolute;
+    top: 264px;
+    left: 1100px;
+    color: gold;
+    font-size: 25px;
+}
+
+.photo-service{
+    position: absolute;
+    left: 350px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: white;
+ 
+}
+
+.footer-photo{
+    position: relative;
+    left: 480px;
+    color: rgb(207, 184, 54);
+
+}
+
+.serv1{
+    position: absolute;
+    left: 480px;
+}
+
+.serv2{
+    position: relative;
+    top: 50px;
+    left: 470px;
+}
+
+.serv3{
+    position: relative;
+    top: 50px;
+    left: 458px;
+}
+
+.serv4{
+    position: relative;
+    top: 50px;
+    left: 460px;
+}
+
+.serv5{
+    position: relative;
+    top: 50px;
+    left: 480px;
+}
+
+.serv6{
+    position: relative;
+    top: 50px;
+    left: 460px;
+}
+
+.serv7{
+    position: relative;
+    top: 50px;
+    left: 450px;
+}
+
+#Feedb{
+    position: relative;
+    top: 50px;
+    left: 458px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid gold;
+}
+
+.feedback-header{
+    position: absolute;
+    top: 10px;
+    left: 1030px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: rgb(207, 184, 54);
+
+
+}
+
+.feed-btn{
+    position: relative;
+    background-color: gold;
+    color: black;
+    top: 75px;
+    left: 398px;
+    width: 80px;
+    padding: 4px 4px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.copyright p{
+    z-index: 999999999;
+    position: absolute;
+    color: black;
+    top: 350px;
+    left: 400px;
+}
+
+.copyright-body{
+    position: relative;
+    top: 340px;
+    background-color: gold;
+    width: 1349px;
+    height: 60px;
+    border-top-color:  gold;
+}
+
+.copyright-body1{
+    position: relative;
+    top: 340px;
+    background-color: gold;
+    width: 1349px;
+    height: 60px;
+    border-top-color:  gold;
+}
+
+
+.grid-1{
+    position: absolute;
+    top: 250px;
+    left: 140px;
+    background-color: gold;
+    width: 1000px;
+    height: 50px;
+    border-radius: 20px;
+    opacity: 0.9 ;
+}
+
+.grid-body{
+    position: absolute;
+    left: 380px;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.post-btn{
+    position: relative;
+    top: 100px;
+    width: 500px;
+    padding: 5px 5px;
+    text-align: center;
+    background-color: gold;
+    color:black;
+    border: none;
+    font-family: sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#form-icon{
+    font-size: 25px;
+    color: white;
+}
+
+
+.form-layer{
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    background-color:black;
+    width: 600px;
+    height: 700px;
+    border-radius: 20px;
+}
+form{
+    position: absolute;
+    top: 500px;
+    left: 350px;
+
+}
+
+.form-body{
+    position: relative;
+    top: 50px;
+    left: 100px;
+
+}
+
+label{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+.star{
+    color: gold;
+}
+
+.name-form{
+    border: none;
+    width: 400px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid gold
+
+}
+
+.name-form:focus{
+    outline: 0;
+}
+
+.contact-form{
+    border: none;
+    width: 400px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid gold
+}
+
+.contact-form:focus{
+        outline: 0;
+}
+
+.email-form{
+    border: none;
+    width: 400px;
+    height: 30px; 
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid gold
+}
+
+.email-form:focus{
+    outline: 0;
+}
+
+.message-form{
+    border: none;
+    width: 400px;
+    height: 150px;
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid gold
+}
+
+.message-form:focus{
+    outline: 0;
+}
+
+.form-btn{
+    align-items: center;
+    border-radius: 20px;
+    background-color: gold;
+    padding: 10px 10px;
+    border: 2px solid gold;
+    cursor: pointer;
+    width: 300px;
+}
+
+.form-btn:focus{
+    outline: 0;
+}
+
+.grid-box{
+    position: relative;
+    top: 200px;
+    margin-left: 0;
+    background-color:grey;
+    width: 1341px;
+    height: 900px;
+}
+
+.Our_Serv{
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 38px;
+    color:white;
+}
+
+.grid-box2{
+    position: relative;
+    top: 10px;
+    left: 900px;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    box-shadow: 10px 10px 10px;
+}
+
+.grid-box2:hover{
+    cursor: pointer;
+}
+
+
+.grid-box3{
+    position: absolute;
+    bottom: 300px;
+    background-color: white;
+    left: 100px;
+    top: 10px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 10px 10px 10px;
+
+}
+
+.grid-box3:hover{
+    cursor: pointer;
+}
+
+
+.grid-box4{
+    background-color: white;
+    position: absolute;
+    left: 500px;
+    top: 10px;
+    width: 250px;
+    height: 400px;
+    box-shadow: 10px 10px 10px;
+}
+
+.grid-box4:hover{
+    cursor: pointer;
+}
+
+
+.grid-box5{
+    position: absolute;
+    background-color: white;
+    left: 100px;
+    top: 450px;
+    width: 350px;
+    height: 400px;
+    box-shadow: 10px 10px 10px;
+
+}
+
+.grid-box5:hover{
+    cursor: pointer;
+}
+
+
+.grid-box6{
+    position: absolute;
+    background-color: white;
+    left: 900px;
+    top: 450px;
+    width: 350px;
+    height: 400px;
+    box-shadow: 10px 10px 10px;
+
+}
+
+.grid-box6:hover{
+    cursor: pointer;
+}
+
+.grid-box7{
+    position: absolute;
+    background-color: white;
+    left: 500px;
+    top: 450px;
+    width: 350px;
+    height: 400px;
+    border: 0.2px solid grey;
+    box-shadow: 20px 20px 20px;
+
+}
+
+.grid-box7:hover{
+    cursor: pointer;
+}
+
+.img-body{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    background-color: white;
+    width: 1280px;
+    height: 900px;
+    
+}
+
+#vacae{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 230px;
+}
+#kad{
+    position: absolute;
+    top: 0px;
+    left: 0px ;
+    width: 300px;
+}
+
+#advance{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 250px;
+}
+
+#ticket{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 350px;
+
+}
+
+#tag{
+    position: absolute;
+    top: 20px;
+    left: 260px;
+    color: gold;
+    font-size: 18px;
+}
+
+#tag2{
+    position: absolute;
+    top: 20px;
+    left: 260px;
+    color: gold;
+    font-size: 18px;
+}
+
+#tag3{
+    position: absolute;
+    top: 20px;
+    left: 210px;
+    color: gold;
+    font-size: 18px;
+}
+
+#tag4{
+    position: absolute;
+    top: 20px;
+    left: 310px;
+    color: gold;
+    font-size: 18px;
+}
+
+#tag5{
+    position: absolute;
+    top: 20px;
+    left: 310px;
+    color: gold;
+    font-size: 18px;
+}
+
+.pro-pic{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+}
+
+.pro-pic img{
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    width: 20px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.owner{
+    position: absolute;
+    color: grey;
+    top: 355px;
+    left: 50px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.pro-pic2{
+    position: absolute;
+    
+    
+}
+.pro-pic2 img{
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    width: 20px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.owner2{
+    position: absolute;
+    color: grey;
+    top: 355px;
+    left: 50px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.pro-pic3{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+}
+
+.owner3{
+    position: absolute;
+    color: grey;
+    top: 355px;
+    left: 50px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.pro-pic3 img{
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    width: 20px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.pro-pic4{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+}
+
+.owner4{
+    position: absolute;
+    color: grey;
+    top: 355px;
+    left: 50px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.pro-pic4 img{
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    width: 20px;
+    height: 25px;
+    border-radius: 50%
+}
+
+.pro-pic5{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+}
+
+.owner5{
+    position: absolute;
+    color: grey;
+    top: 355px;
+    left: 50px;
+    font-size: 10px;
+    font-family: sans-serif
+}
+
+.pro-pic5 img{
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    width: 20px;
+    height: 25px;
+    border-radius: 50%
+}
+
+#eye{
+    position: absolute;
+    color: black;
+    top: 355px;
+    left: 270px;
+    font-size: 15px;
+}
+
+#eye2{
+    position: absolute;
+    color: black;
+    top: 355px;
+    left: 270px;
+    font-size: 15px;
+}
+
+#eye3{
+    position: absolute;
+    color: black;
+    top: 355px;
+    left: 220px;
+    font-size: 15px; 
+}
+
+#eye4{
+    position: absolute;
+    color: black;
+    top: 355px;
+    left: 320px;
+    font-size: 15px;
+}
+
+#eye5{
+    position: absolute;
+    color:black;
+    top: 355px;
+    left: 320px;
+    font-size: 15px;
+}
+
+.glam-header{
+    position: absolute;
+    top: 210px ;
+    left: 20px;
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+}
+
+.glam-qoute{
+    position: absolute;
+    top: 260px ;
+    left: 20px;
+    color: black;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+    line-height: 20px;
+}
+
+#brush{
+    position: absolute;
+    top: 230px;
+    left: 158px;
+    color: tomato;
+
+}
+
+#rave{
+    position: absolute;
+    top: 240px;
+    left: 108px;
+    color: black;
+
+}
+
+#mike{
+    position: absolute;
+    top: 230px;
+    left: 118px;
+    color: black;
+
+}
+
+
+
+.heels-wheels{
+    position: absolute;
+    top: 220px ;
+    left: 20px;
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+}
+.HW-qoute{
+    position: absolute;
+    top: 260px ;
+    left: 20px;
+    color: black;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+    line-height: 20px;
+}
+
+.reggae-ball{
+    position: absolute;
+    top: 210px ;
+    left: 20px;
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+}
+
+.reggae-qoute{
+    position: absolute;
+    top: 260px ;
+    left: 20px;
+    color: black;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+    line-height: 20px;
+}
+
+.cookout{
+    position: absolute;
+    top: 210px ;
+    left: 20px;
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+}
+
+.cookout-qoute{
+    position: absolute;
+    top: 260px ;
+    left: 20px;
+    color: black;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+    line-height: 20px;
+}
+
+.vacae-header{
+    position: absolute;
+    top: 210px ;
+    left: 20px;
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+}
+
+.vacae-qoute{
+    position: absolute;
+    top: 260px ;
+    left: 20px;
+    color: black;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+    line-height: 20px;
+}
+
+.AboutUs_header{
+    position: absolute;
+    top: 280px;
+    left: 380px;
+    text-align: center;
+    background-color: gold;
+    width: 500px;
+    padding: 10px 10px;
+    font-size: 25px;
+    font-family: Georgia;
+    border-radius: 20px;
+}
+
+.abt_body{
+    position: absolute;
+    top: 100px;
+    
+}
+.bio{
+    position: absolute;
+    background-color: white;
+    top: 300px;
+    left: 50px;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    color: black;
+
+}
+
+.bio img{
+    position: absolute;
+    left: 85px;
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid gold;
+}
+
+.bio_graphy{
+    position: absolute;
+    background-color: white;
+    top: 300px;
+    left: 400px;
+    width: 790px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.right_skew{
+    position: absolute;
+    left: 500px;
+    background-color: gold;
+    width: 300px;
+    height: 500px;
+    transition: ease-out 4s transform;
+    transform: skew(20deg);
+}
+
+.bio_header{
+    position: absolute;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 500px;
+    left: 20px;
+    top: 20px;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: sans-serif ;
+    font-weight: bold;
+
+}
+
+.bio_line{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    background-color: gold;
+    width: 50px;
+    height: 4px;
+    border-radius: 20px;
+
+}
+
+.bio_para{
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    font-size: 18px;
+    font-family: Georgia ;
+}
+
+.info_box{
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    font-size: 14px;
+    color: grey;
+}
+
+.personal_info{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    padding: 10px 10px;
+    width: 200px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 20px;
+
+}
+
+.pers_line{
+    position: absolute;
+    top: 240px;
+    left: 30px;
+    background-color: gold;
+    width: 50px;
+    height: 4px;
+    border-radius: 20px;
+
+}
+
+.bio_grid{
+    position: absolute;
+    top: 920px;
+    background-color: white;
+    width: 1341px;
+    height: 400px;
+}
+
+.bio_grid img{
+    position: absolute;  
+    top: 100px;
+    left: 900px;
+    border-radius: 50%;
+    border: 3px solid gold;
+}
+
+
+.ftr_goals{
+    position: absolute;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    padding: 50px 50px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.goals_line{
+    position: absolute;
+    top: 128px;
+    left: 50px;
+    background-color: gold;
+    width: 50px;
+    height: 4px;
+    border-radius: 20px;
+
+}
+
+.future-goals-info{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.btn-lifestyle{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    background-color: gold;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    border: 1px solid gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-lifestyle:hover{
+    background-color: white;
+
+}
+
+.btn-lifestyle:focus{
+    outline: none;
+    
+}
+.main_header{
+    position: absolute;
+    top: 300px;
+    left: 570px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana;
+    color: white;
+
+
+}
+
+.serv_btn{
+    position: absolute;
+    top: 380px;
+    left: 620px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana;
+    color: black;
+    background-color: gold;
+    padding: 5px 5px;
+    border-radius: 20px;
+    border: 1px solid gold;
+    cursor: pointer;
+}
+
+.serv_btn:hover{
+    background-color: white;
+    box-shadow: 5px 5px 5px;
+}
+
+.serv_btn:focus{
+    outline: none;
+}
+
+
+.graphics_grid{
+    position: absolute;
+    top: 500px;
+    background-color: white;
+    width: 1341px;
+    height: 900px;
+}
+
+.talk_grid{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 90px 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 44px;
+}
+
+.grid_img{
+    position: absolute;
+    left: 820px;
+    top: 40px;
+    width: 390px;
+    height: 300px;
+}
+
+.talk_line{
+    position: absolute;
+    left: 90px;
+    top: 230px;
+    background-color: gold;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.graphics_hover:hover{
+    position: absolute;
+    background-color: gold;
+}
+
+.def{
+    position: absolute;
+    top: 740px;
+    left: 90px;
+    color: black;
+    line-height: 30px;
+    font-family:'Lucida Sans Unicode';
+    text-transform: capitalize;
+}
+
+.tick_def_grid{
+    position: absolute;
+    top: 950px;
+    left: 100px;
+    background-color: white;
+    width: 300px;
+    height: 320px;
+    border-radius: 8px;
+    box-shadow: 20px 20px 20px;
+}
+
+.tick-header{
+    position: absolute;
+    top: 40px;
+    left: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+
+}
+.party_ticket{
+    position: absolute;
+    top: -50px;
+    bottom: 400px;
+    width: 85px;
+    height: 85px;
+    left: 100px;
+    border-radius: 50%;
+    border: 3px solid gold;
+
+}
+
+.abt_tick{
+    position: absolute;
+    top: 90px;
+    left: 18px;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn_tick{
+    position: absolute;
+    background-color: gold;
+    padding: 9px 9px;
+    text-align: center;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    border: 1px solid gold;
+    top: 270px;
+    left: 18px;
+    cursor: pointer;
+
+}
+
+.btn_tick:hover{
+    background-color: white;
+}
+
+.btn_tick:focus{
+    outline: none;
+}
+
+#chart1{
+    color: black;
+    margin-left: 8px;
+}
+
+#chart1:hover{
+    color: black;
+}
+
+.model-2{
+    z-index: 9999;
+    position: absolute;
+    top: -900px;
+    left: -100px;
+    width: 1349px;
+    height: 1700px;
+    background-color: rgba(0,0, 0, 0.7);
+    display: flex;
+    display: none;
+
+}
+
+.model-container2{
+    z-index: 9999999;
+    position: absolute;
+    width: 800px;
+    background-color: white;
+    opacity: none;
+    height: 500px;
+    top: 800px;
+    left: 280px;
+    border-radius: 9px;
+
+}
+
+
+
+.close-model1{
+    position: absolute;
+    font-size: 20px;
+    top: 800px;
+    left: 1100px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.vertical_line{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    background-color: gold;
+    width: 2px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.form-m label{
+    color: black;
+    word-spacing: 10px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+
+.m1-form-input1{
+    position: absolute;
+    border: none;
+    border-bottom: 2px solid gold;
+}
+
+.m1-form-input1:focus{
+    outline: none;
+}
+
+.m1-form-input2{
+    position: absolute;
+    border: none;
+    border-bottom: 2px solid gold;
+}
+
+.m1-form-input2:focus{
+    outline: none;
+}
+
+.m1-form-input3{
+    position: absolute;
+    border: none;
+    border-bottom: 2px solid gold;
+}
+
+.m1-form-input3:focus{
+    outline: none;
+}
+.m1-form-input4{
+    position: absolute;
+    border: none;
+    height: 40px;
+    border-bottom: 2px solid gold;
+}
+
+.m1-form-input4:focus{
+    outline: none;
+}
+
+.btn-model2{
+    position: absolute;
+    background-color: gold;
+    padding: 10px 10px;
+    left: 50px;
+    top: 330px;
+    width: 300px;
+    border: 1px solid gold;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.btn-model2:hover{
+    background-color: white;
+}
+
+.btn-model2:focus{
+    outline: none;
+}
+
+.img-d8{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 380px;
+    border-radius: 20px;
+}
+
+.prices{
+    position: absolute;
+    top: 260px;
+    left: 15px;
+}
+
+.price1{
+    background-color: gold;
+    height: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.prices label{
+    color: black;
+}
+    
+
+.form-model2{
+    position: absolute;
+    top: -400px;
+    left: 70px;
+}
+
+.tshirt_def_grid{
+    position: absolute;
+    top: 950px;
+    left: 480px;
+    background-color: white;
+    width: 300px;
+    height: 320px;
+    border-radius: 8px;
+    box-shadow: 20px 20px 20px;
+}
+
+.tshirt{
+    position: absolute;
+    top: -50px;
+    bottom: 400px;
+    width: 85px;
+    height: 85px;
+    left: 100px;
+    border-radius: 50%;
+    border: 3px solid gold;
+
+}
+
+.business-header{
+    position: absolute;
+    top: 40px;
+    left: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+}
+
+.abt_tshirt{
+    position: absolute;
+    top: 90px;
+    left: 18px;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn_tshirt{
+    position: absolute;
+    background-color: gold;
+    padding: 9px 9px;
+    text-align: center;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    border: 1px solid gold;
+    top: 270px;
+    left: 18px;
+    cursor: pointer;
+
+}
+
+.btn_tshirt:hover{
+    background-color: white;
+}
+
+.btn_tshirt:focus{
+    outline: none;
+}
+
+#chart2{
+    color: black;
+    margin-left: 10px;
+}
+
+#chart2:hover{
+    color: black;
+}
+
+
+.prices1{
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+
+.price2{
+    background-color: gold;
+    height: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.prices1 label{
+    color: black;
+}
+    
+.Send-mail{
+    position: absolute;
+    z-index: 9999999;
+    top: 20px;
+    left: 530px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: black;
+    
+}
+.model-3{
+    z-index: 9999;
+    position: absolute;
+    top: -949px;
+    left: -480px;
+    width: 1349px;
+    height: 1800px;
+    background-color: rgba(0,0, 0, 0.7);
+    display: flex;
+    display: none;
+
+}
+
+.model-container3{
+    z-index: 9999999;
+    position: absolute;
+    width: 800px;
+    background-color: white;
+    opacity: none;
+    height: 500px;
+    top: 800px;
+    left: 280px;
+    border-radius: 9px;
+
+}
+
+
+
+.close-model2{
+    position: absolute;
+    font-size: 20px;
+    top: 800px;
+    left: 1100px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.bcd{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    width: 500px;
+}
+.form-model3{
+    position: absolute;
+    top: -400px;
+    left: 180px;
+}
+.form-m1 label{
+    color: black;
+    word-spacing: 10px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+
+.m2-form-input1{
+    position: absolute;
+    border: none;
+    border-bottom: 2px solid gold;
+}
+
+.m2-form-input1:focus{
+    outline: none;
+}
+
+.m2-form-input2{
+    position: absolute;
+    border: none;
+    border-bottom: 2px solid gold;
+}
+
+.m2-form-input2:focus{
+    outline: none;
+}
+
+.m2-form-input3{
+    position: absolute;
+    border: none;
+    border-bottom: 2px solid gold;
+}
+
+.m2-form-input3:focus{
+    outline: none;
+}
+.m2-form-input4{
+    position: absolute;
+    border: none;
+    height: 40px;
+    border-bottom: 2px solid gold;
+}
+
+.m2-form-input4:focus{
+    outline: none;
+}
+
+.btn-model3{
+    position: absolute;
+    background-color: gold;
+    padding: 10px 10px;
+    left: 50px;
+    top: 330px;
+    width: 130px;
+    border: 1px solid gold;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.btn-model3:hover{
+    background-color: white;
+}
+
+.btn-model3:focus{
+    outline: none;
+}
+.poster_def_grid{
+    position: absolute;
+    top: 950px;
+    left: 880px;
+    background-color: white;
+    width: 300px;
+    height: 320px;
+    border-radius: 8px;
+    box-shadow: 20px 20px 20px;
+}
+
+.post-header{
+    position: absolute;
+    top: 40px;
+    left: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.d9{
+    position: absolute;
+    top: -50px;
+    bottom: 400px;
+    width: 85px;
+    height: 85px;
+    left: 100px;
+    border-radius: 50%;
+    border: 3px solid gold;
+}
+
+.abt_poster{
+    position: absolute;
+    top: 90px;
+    left: 18px;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn_poster{
+    position: absolute;
+    background-color: gold;
+    padding: 9px 9px;
+    text-align: center;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    border: 1px solid gold;
+    top: 280px;
+    left: 18px;
+    cursor: pointer;
+
+}
+
+.btn_poster:hover{
+    background-color: white;
+}
+
+.btn_poster:focus{
+    outline: none;
+}
+
+#chart3{
+    color: black;
+    margin-left: 10px;
+}
+
+#chart3:hover{
+    color: black;
+}
+.model-4{
+    z-index: 9999;
+    position: absolute;
+    top: -900px;
+    left: -1000px;
+    width: 1469px;
+    height: 1750px;
+    background-color: rgba(0,0, 0, 0.7);
+    display: flex;
+    display: none;
+}
+
+.model-container4{
+    z-index: 9999999;
+    position: absolute;
+    width: 800px;
+    background-color: white;
+    opacity: none;
+    height: 500px;
+    top: 800px;
+    left: 380px;
+    border-radius: 9px;
+}
+
+.close-model4{
+    position: absolute;
+    z-index: 999999999;
+    font-size: 20px;
+    top: 787px;
+    left: 1200px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.post{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    width: 500px;
+}
+
+.prices2{
+    position: absolute;
+    top: 280px;
+    left: 350px;
+}
+
+.price3{
+    background-color: gold;
+    height: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.prices2 label{
+    color: black;
+}
+    
+.Send-mail1{
+    position: absolute;
+    z-index: 9999999;
+    top: 20px;
+    left: 530px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: black;
+    
+}
+.form-model4{
+    position: absolute;
+    top: -400px;
+    left: 180px;
+}
+.form-m2 label{
+    color: black;
+    word-spacing: 10px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+
+.m3-form-input1{
+    position: absolute;
+    border: none;
+    border-bottom: 2px solid gold;
+}
+
+.m3-form-input1:focus{
+    outline: none;
+}
+
+.m3-form-input2{
+    position: absolute;
+    border: none;
+    border-bottom: 2px solid gold;
+}
+
+.m3-form-input2:focus{
+    outline: none;
+}
+
+.m3-form-input3{
+    position: absolute;
+    border: none;
+    border-bottom: 2px solid gold;
+}
+
+.m3-form-input3:focus{
+    outline: none;
+}
+.m3-form-input4{
+    position: absolute;
+    border: none;
+    height: 40px;
+    border-bottom: 2px solid gold;
+}
+
+.m3-form-input4:focus{
+    outline: none;
+}
+
+.btn-model4{
+    position: absolute;
+    background-color: gold;
+    padding: 10px 10px;
+    left: 50px;
+    top: 330px;
+    width: 130px;
+    border: 1px solid gold;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.btn-model4:hover{
+    background-color: white;
+}
+
+.btn-model4:focus{
+    outline: none;
+}
+
+.img-d8{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 380px;
+    border-radius: 20px;
+}
+
+
+.sticky_header{
+    z-index: 99999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: gold;
+    width: 1400px;
+    height: 50px;
+}
+
+.SH_info{
+    position: absolute;
+    left: 450px;
+    top: 10px;
+    font-size: 13px;
+    font-family: Verdana,sans-serif;
+}
+
+.header_name{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    text-transform: capitalize;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: fantasy;
+}
+
+.btn-con{
+    position: absolute;
+    left: 700px;
+    top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px 10px;
+    background-color: gold;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.btn-con:hover{
+    background-color: white;
+}
+
+.btn-con:focus{
+    outline: none;
+}
+
+#plus{
+    position: absolute;
+    font-size: 11px;
+    top: 25px;
+    left: 29px;
+}
+
+#insta_header{
+    position: absolute;
+    font-size: 25px;
+    top: 25px;
+    left: 1300px;
+
+}
+
+.border{
+    position: absolute;
+    top: 13px;
+    left: 1290px;
+    font-weight: bold;
+}
+
+.coming_soon{
+    position: absolute;
+    background-color: gold;
+    top: 300px;
+    left: 180px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 900px;
+    font-size: 25px;
+    font-family:  serif;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: ease-out;
+}
+
+.no_event{
+    position: absolute;
+    background-color: gold;
+    top: 300px;
+    left: 180px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 900px;
+    font-size: 25px;
+    font-family:  serif;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: ease-out;
+}

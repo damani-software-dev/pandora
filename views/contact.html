@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <?php include 'Email.php'?>
+</head>
+<body>
+    <header>
+        <div class="sticky_header">
+            <i class="fas fa-plus" id="plus"></i>
+            <p class="header_name"> Graphic Service</p>
+            <p class="SH_info">if you are interested in Our Service </p>
+            <a href="https://instagram.com/_pandoras_pryntz?igshid=1e6fccm092shw"><button class="btn-con">Follow Us</button></a>
+            <p class="border">|</p><i class="fab fa-instagram" id="insta_header"></i>
+           
+        </div>
+        <div class="nav-bar"> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="About us.html">About Us</a></li>
+            </ul>
+        </div>
+        <div class="nav-background"></div>
+        <!----<img src="pandoras-logo.jpg"/>--->
+        <!---<img src="images/pandoras-logo.jpg"/>-->
+        </header>
+            <div class="grid-body">
+                <p class="post-btn">Contact-Form &nbsp;<i id="form-icon" class="fab fa-wpforms"></i></p>
+            </div>
+        <div class="form-layer"></div>
+        <form method="POST">
+        <div class="form-body">
+            <label>Subject</label>
+            <label class="star">*</label>
+            <br>
+            <input type="text" id="subject" name="subject" class="name-form" placeholder="Subject"></input>
+            <br>
+            <br>
+            <br>
+            <label>Email</label>
+            <label class="star">*</label>
+            <br>
+            <input type="email" id="email" name="email" class="email-form" placeholder="Email" ></input>
+            <br>
+            <br>
+            <br>
+            <label>Description/Work</label>
+            <label class="star">*</label>
+            <br>
+            <textarea type="text" id="text" name="text" class="message-form" placeholder="info." row="5" ></textarea>
+            <br>
+            <br>
+            <br>
+            <center><button type="submit" name="submit" class="form-btn">submit</button></center>
+        </div>
+        </form>
+        <script>
+
+            $('form').on('submit', (e) => {
+                e.preventDefault();
+
+                const subject = $('#subject').val().trim();
+                const email = $('#email').val().trim();
+                const text = $('#text').val().trim();
+
+                const Data = {
+
+                    subject,
+                    email,
+                    text
+               };
+
+                $.post('/email', Data , function(){
+                   console.log('server recieved our data');
+
+               });
+
+            });;
+        
+        </script>
+        
+        <footer>
+            <img class="footer-logo" src="images/pandoras-logo.jpg">
+            <h3 class="footer-contact">Contact Us</h3>
+            <p id="phone"><i class="fas fa-phone-alt"></i></p>
+            <p class="phone-num">+1(876)781-7659</p>
+            <p id="email-icon"><i class="fas fa-envelope"></i></p>
+            <p class="email">pandoraspryntzja@gmail.com</p>
+            <p class="copy"></p>
+            <div class="Services-header">
+                <h3 class="footer-services">Graphic Services</h3>
+                <p class="first">Posters/Flyers</p>
+                <p class="two">Business Cards</p>
+                <p class="three">Tickets</p>
+                <p class="four">Logos</p>
+                <p class="five">Calenders</p>
+                <p class="six">Custom T-Shirt</p>
+                <p class="seven">ID Cards</p>
+                <p class="eight">etc...</p>
+            </div>
+            <h3 class="follow">Follow Us</h3>
+            <i id="Fb-icon"class="fab fa-facebook-square"></i>
+            <i id="insta-icon" class="fab fa-instagram"></i>
+            <div class="photo-service">
+                <h3 class="footer-photo">Photo Services</h3>
+                <p class="serv1">Photoshoot</p>
+                <p class="serv2">Birthay Parties</p>
+                <p class="serv3">Weddings</p>
+                <p class="serv4">Graduation</p>
+                <p class="serv5">Business Events</p>
+                <p class="serv6">ID Cards</p>
+                <p class="serv7">etc...</p>
+            </div>
+            <div class="copyright">
+                    <p> Copyright &copy; 2018 - Pandoras Pryntz, Clarendon Jamaica | Business Owner Shanice Smith</p>
+                </div>
+                <div class="copyright-body"></div>
+        </footer>
+
+</body>
+</html>
